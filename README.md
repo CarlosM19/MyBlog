@@ -1,1 +1,1 @@
-# MyBlog
+En este Blog se encontraran las Noticias más relevantes y veraces del mundo de la Política en México

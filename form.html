@@ -14,15 +14,42 @@
     </head>
     <body>
        <header>
-           <a name = "arriba"></a>
-           <a href ="C:\Users\lopez\OneDrive\Desktop\DiplomadoJavaScript\MyBlog\index.html" title = "Regresar al Blog" target = "_self">Regresar</a>
            <h1>Contactanos</h1>
            <p>
            <b>Para Nosotros eres importante, y nos agrada escuchar tus opiniones o sugerencias.</b>
            </p>
         </header>
+        <div>
+          <p><u>Ingresa la siguiente información:</u></p>
+        </div>
         <form>
+          <p>
+              <label>Nombre: </label><input type ="text" placeholder ="Nombre" size = "20px" id = "nombre" name = "nombre">&emsp;&emsp;
+              <label>Apellidos: </label><input type ="text" placeholder ="Apellidos" size = "20px" id = "apellidos" name = "apellidos">
+          </p>
+          <p>
+              <label>Celular: </label><input type ="phone2numeric" placeholder ="No. de Celular" size = "25px" id = "celular" name = "celular">&emsp;&emsp;
+              <label>Email: </label><input type ="Email" placeholder ="Email" size = "25px" id = "email" name = "email">
+          </p>
+          <p>
+              Califica del 1 al 5, donde 1 = Nada y 5 = Excelente, que te parece nuestro contenido:
+              <br/>
+              1<input type = "radio" name = "calificación" id = "calificación">&emsp;
+              2<input type = "radio" name = "calificación" id = "calificación">&emsp;
+              3<input type = "radio" name = "calificación" id = "calificación">&emsp;
+              4<input type = "radio" name = "calificación" id = "calificación">&emsp;
+              5<input type = "radio" name = "calificación" id = "calificación">&emsp;
+          </p>
+          <p>
+              <label>Comentarios: </label>
+              <br/>
+              <textarea type ="text" rows = "20" cols = "60" id = "comentarios" name = "comentarios"></textarea>
+              <br/>
+              <input type ="submit" value = "Enviar" id = "enviar" name = "enviar">
+              <a href ="C:\Users\lopez\OneDrive\Desktop\DiplomadoJavaScript\MyBlog\index.html" title = "Regresar al Blog" target = "_self">Regresar a Página Principal</a>
+          </p>
         </form>
+
         <hr>
         <footer>
             <p>Copyright &copy; 2021, De Política y Más</p>
